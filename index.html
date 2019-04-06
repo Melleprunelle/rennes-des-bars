@@ -6,28 +6,15 @@
 	<title>La Rennes des Bars</title>
 	<meta name="author" content="La Rennes des Bars" />
 
-	<script type="text/javascript" src="assets/js/jquery.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>	
-	<script type="text/javascript" src="assets/js/jquery.pagepiling.min.js"></script>	
-
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700" />
-	<link rel="stylesheet" type="text/css" href="assets/css/jquery.pagepiling.css" />
+	<link rel="stylesheet" media="(min-width: 1000px)" type="text/css" href="assets/css/jquery.pagepiling.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-	<script type="text/javascript">
-		var deleteLog = false;
-
-		$(document).ready(function() {
-				$('#pagepiling').pagepiling({
-					menu: '#menu',
-					anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6',],
-					sectionsColor: ['#344955', '#f78c28', '#344955', '#f78c28', '#344955', '#f78c28'],
-					loopTop: true,
-					loopBottom: true
-			});
-			});
-</script>
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>	
+	<script type="text/javascript" src="assets/js/jquery.pagepiling.min.js"></script>
+	<script type="text/javascript" src="assets/js/javascript.js"></script>	
 </head>
 <body>
 	<div class="navbarPage" id="#menu">
@@ -65,29 +52,31 @@
 	</div>
 
 	<div id="pagepiling">
-	    <div class="section" id="section1">
-	    	<h1>Accueil</h1>
-			</div>
+	    <section class="section section1" id="section1">
+				<div class="u-wrapper">
+					<h1>Accueil</h1>
+				</div>
+			</section>
 			
-	    <div class="section" id="section1">
+	    <section class="section section2" id="section1">
 				<h1>En image</h1>
-			</div>
+			</section>
 
-			<div class="section" id="section1">
+			<section class="section section3" id="section1">
 				<h1>L'équipe</h1>
-			</div>
+			</section>
 
-			<div class="section" id="section1">
+			<section class="section section4" id="section1">
 				<h1>Actualités</h1>
-			</div>
+			</section>
 
-			<div class="section" id="section1">
+			<section class="section section5" id="section1">
 				<h1>Avis Client</h1>
-			</div>
+			</section>
 
-			<div class="section" id="section1">
+			<section class="section section6" id="section1">
 				<h1>Contact</h1>
-			</div>
+			</section>
 	</div>
 
 </body>

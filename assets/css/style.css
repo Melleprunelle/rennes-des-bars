@@ -6,6 +6,12 @@ body {
     color: #fff;
 }
 
+.u-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: red;
+}
+
 
 /* ----------------------- */
 /* NABAR */
@@ -67,6 +73,12 @@ body {
 
 
 /* ----------------------- */
-/* Autre */
+/* SECTION 1 */
 /* ----------------------- */
 
+@media (max-width : 1000px) {
+    .section1 {
+        background-color: red;
+        height: 86rem;
+    }
+}
