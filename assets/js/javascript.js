@@ -1,20 +1,4 @@
-$(function(){
-    $("a").click(function(evt){
-      evt.preventDefault();
-      var obj = $(this),
-          objParent = obj.parent(),
-          allLi = objParent.parent().find("a");
-      
-      $("div.nav li").removeClass("active");
-        allLi.removeClass("active");
-        objParent.addClass("active");
-    });
-  });
-
-
 var deleteLog = false;
-var w = window.innerWidth;
-if (w > 1000) {		
   $(document).ready(function() {
       $('#pagepiling').pagepiling({
         menu: '#menu',
@@ -23,5 +7,4 @@ if (w > 1000) {
         loopTop: true,
         loopBottom: true
     });
-  });
-};
+});

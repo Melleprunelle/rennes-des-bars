@@ -4,12 +4,23 @@
 
 body {
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .u-wrapper {
     width: 1200px;
     margin: 0 auto;
-    background-color: red;
+}
+
+h1, h2 {
+    font-size: 3.6rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.06rem;
+    padding: 2.6rem 0 3.4rem 0;
+    margin: 0;
 }
 
 
@@ -27,6 +38,9 @@ body {
     justify-content: space-between;
     position: fixed;
     z-index: 100;
+    -webkit-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.31);
 }
 
 .navbar {
@@ -45,8 +59,13 @@ body {
     justify-content: flex-end;
 }
 
+.navbar object {
+    width: 250px;
+}
+
 .navbar a {
     color: #fff;
+    font-size: 1.25rem;
 }
 
 .nav-item {
@@ -76,9 +95,107 @@ body {
 /* SECTION 1 */
 /* ----------------------- */
 
+.pp-tableCell {
+    position: relative;
+}
+
+.section1 .u-wrapper {
+    display: flex;
+}
+
+.section .home-content {
+    width: 50%;
+}
+
+.picto-download {
+    width: 28.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picto-download img {
+    width: 13.7rem;
+    height: 4.1rem;
+    opacity: 0.7;
+}
+
+.picto-download a img {
+    opacity: 1;
+}
+
+.picto-download a:hover {
+    transition: 0.2s;
+    -webkit-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.31);
+}
+
+.home-img {
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    background-color: #f78c28;
+    width: 45%;
+    height: 100%;
+}
+
+.home-img img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80%;
+}
+
+
+@media (max-width: 1300px) {    
+    .home-img img {
+        position: absolute;
+        bottom: 0;
+        right: -10%;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    .u-wrapper {
+        padding: 0 2rem;
+    }
+    .home-img img {
+        position: absolute;
+        bottom: 0;
+        right: -10%;
+    }
+}
+
 @media (max-width : 1000px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbarPage {
+        position: relative;
+    }
+
     .section1 {
         background-color: red;
-        height: 86rem;
+        height: 70vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .home-img {
+        width: 100%;
+        position: relative;
+    }
+
+    .home-img img {
+        height: 100%;
+        right: 0;
+    }
+
+    .home-content {
+        display: none;
     }
 }
