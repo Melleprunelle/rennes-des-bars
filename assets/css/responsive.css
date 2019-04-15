@@ -62,7 +62,6 @@
     }
 
     .section1 .visuel {
-        background-image: url(../img/header_img.png);
         background-position: bottom right;
         background-size: auto 80%;
         height: 80vh;
