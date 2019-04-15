@@ -1,6 +1,6 @@
 var w = window.innerWidth;
 console.log(w);
-if (w > 960) {
+if (w > 1000) {
   var deleteLog = false;
     $(document).ready(function() {
         $('#pagepiling').pagepiling({
