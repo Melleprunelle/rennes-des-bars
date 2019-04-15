@@ -101,6 +101,7 @@ p {
     height: 100vh;
     display: flex;
     justify-content: flex-start;
+    display: inline;
 }
 
 .section1 .content {
