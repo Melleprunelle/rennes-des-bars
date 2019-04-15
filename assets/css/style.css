@@ -98,6 +98,7 @@ p {
 
 .section1 .u-wrapper {
     overflow: hidden;
+    background-color: #344955;
     height: 100vh;
     display: flex;
     justify-content: flex-start;
