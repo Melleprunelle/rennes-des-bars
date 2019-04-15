@@ -1,97 +1,71 @@
 /* ----------------------- */
-/* 1650 */
+/* 1600px */
 /* ----------------------- */
 
-@media (max-width: 1650px) {
-    .section1 .home-img img {
-        right: -10%;
-    }
-    
-    .section1 .home-content img {
-        width: 22vh;
+@media (max-width:1600px) {
+    .section1 .visuel {
+        background-position: bottom 0 right -6rem;
     }
 }
 
 /* ----------------------- */
-/* 1350 */
+/* 1400px */
 /* ----------------------- */
 
-@media (max-width: 1350px) {
-    .section1 .home-img img {
-        right: -20%;
-    }
-
-    .section1 .home-content img {
-        width: 20vh;
+@media (max-width:1400px) {
+    .section1 .visuel {
+        background-size: auto 80%;
+        background-position: bottom 0 right -5rem;
     }
 }
 
 /* ----------------------- */
-/* 1250 */
+/* 1250px */
 /* ----------------------- */
 
-@media (max-width: 1250px) {
-    .section1 .home-img img {
-        height: 75%;
-        right: -20%;
+@media (max-width:1250px) {
+    h1 {
+        font-size: 2.75rem;
     }
 
-    .section1 .home-content img {
-        width: 16vh;
-    }    
+    p {
+        font-size: 1rem;
+    }
+
+    .u-wrapper {
+        padding: 0 2rem;
+    }
+    .section1 .visuel {
+        background-size: auto 73%;
+        background-position: bottom 0 right -8rem;
+    }
 }
 
 /* ----------------------- */
-/* 1100 */
+/* 1100px */
 /* ----------------------- */
 
-@media (max-width: 1100px) {
-    .section1 .home-img img {
-        height: 75%;
-        right: -40%;
-    }  
+@media (max-width:1100px) {
+    .section1 .visuel {        
+        background-size: auto 73%;
+        background-position: bottom 0 right -9.5rem;
+    }
 }
 
 /* ----------------------- */
-/* 960 */
+/* 960px / display */
 /* ----------------------- */
 
-@media (max-width : 990px) {
-
-    body {
-        overflow-x: hidden;
-    }
-
-    .navbarPage {
-        position: relative;
-    }
-
-    .navbar a {
-        color: #fff;
-        font-size: 3em;
-    }
-
-    .section1 {
-        height: 439px;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .section1 .home-img {
-        background-color: #f78c28;
-        height: 44rem;
-        position: relative;
-        top: 16rem;
-        width: 100%;
-
-    }
-
-    .section1 .home-img img {
-        height: 90%;
-        right: 0%;
-    }  
-
-    .home-content {
+@media (max-width:960px) {
+    .section1 .content {
         display: none;
+    }
+
+    .section1 .visuel {
+        background-image: url(../img/header_img.png);
+        background-position: bottom right;
+        background-size: auto 80%;
+        height: 80vh;
+        width: 100%;
     }
 }

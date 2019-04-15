@@ -5,10 +5,11 @@
 body {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
 }
 
 h1, h2 {
-    font-size: 3.6em;
+    font-size: 3.7rem;
     margin: 0;
 }
 
@@ -16,6 +17,11 @@ p {
     font-size: 1em;
     padding: 2.6rem 0 3.4rem 0;
     margin: 0;
+}
+
+.u-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -39,7 +45,7 @@ p {
 }
 
 .navbar {
-   /* max-width: 1200px; */
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -90,57 +96,56 @@ p {
 /* SECTION 1 */
 /* ----------------------- */
 
-
-.section1 .row {
-    align-items: center;
+.section1 .u-wrapper {
+    overflow: hidden;
     height: 100vh;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.section1 .home-content img {
-    width: 23vh;
+.section1 .content {
+    max-width: 660px;
+    max-width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #344955;
+    padding: 0 6rem 0 0;
 }
 
-.section1 .home-img {
-    background-color: #f78c28;
-    height: 100vh;
-    position: relative;
+.section1 .section1-link {
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-.section1 .home-img img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 80%;
+.section1 .section1-link img {
+    width: 13.75rem;
+    transition: 0.5s;
 }
 
-.section1 .picto-download img:nth-child(2) {
+.section1 .section1-link img:hover {
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.5);
+}
+
+.section1 .section1-link .opacity {
     opacity: 0.5;
 }
 
-
-/* ----------------------- */
-/* SECTION 2 */
-/* ----------------------- */
-
-
-.section2 .row {
-    align-items: center;
-    height: 100vh;
+.section1 .section1-link .opacity:hover {
+    box-shadow: none;
 }
 
-.section2 .home-content img {
-    width: 23vh;
-}
-
-.section2 .home-caroussel {
-    background-color: #344955;
-    height: 100vh;
+.section1 .visuel {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../img/kesako_img.png);
-    background-size: contain;
-    background-position: right bottom;
+    background-image: url(../img/header_img.png);
     background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto 90%;
+    background-color: #f78c28;
+    height: 100vh;
+    width: 44%;
+    position: absolute;
+    right: 0;
 }
