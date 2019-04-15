@@ -56,15 +56,15 @@
 /* 960px / display */
 /* ----------------------- */
 
-@media (max-width:960px) {
+@media (max-width:1000px) {
     .section1 .content {
         display: none;
     }
 
     .section1 .visuel {
         background-position: bottom right;
-        background-size: auto 80%;
-        height: 80vh;
+        background-size: auto 90%;
+        height: 60vh;
         width: 100%;
     }
 }
