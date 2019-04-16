@@ -39,6 +39,30 @@
     .section1 .visuel {
         background-size: auto 73%;
         background-position: bottom 0 right -8rem;
+    }    
+
+    .section2 .u-wrapper {
+        justify-content: center;
+    }
+
+    .section2 .content {
+        max-width: 30%;
+        height: auto;
+        padding: 6rem 0;
+    }
+
+    #swiper-present {
+        z-index: 2;
+        width: 70%;
+        margin: 0;
+    }
+
+    #swiper-present .swiper-slide {
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 35rem;
     }
 }
 
@@ -58,8 +82,28 @@
 /* ----------------------- */
 
 @media (max-width:1000px) {
+
+    h1, h2 {
+        font-size: 8em;
+        margin: 0;
+    }
+
+    p {
+        font-size: 2em;
+        padding: 2.6rem 0 3.4rem 0;
+        margin: 0;
+    }
+
+    .section1 {
+        height: 85rem;
+    }
+
     .section1 .content {
         display: none;
+    }
+
+    .section1 .u-wrapper {
+        height: auto;
     }
 
     .section1 .visuel {
@@ -68,4 +112,71 @@
         height: 85rem;
         width: 100%;
     }
+
+    .section2 {
+        height: auto;
+        background-image: none;
+    }
+
+    .section2 .u-wrapper {
+        display: flex;
+        flex-direction: column;
+        background-color: #344955;
+        height: auto;
+    }
+
+    .section2 .content {
+        max-width: 100%;
+        height: auto;
+        padding: 6rem 0;
+    }
+
+    .section2 .content a {
+        display: block;
+    }
+
+    .section2 img {
+        display: block;
+        width: 70%;
+        transition: 0.5s;
+    }
+    
+    .section2 img:hover {
+        box-shadow: 0 0px 20px 0 rgba(0,0,0,0.5);
+    }
+
+    .section2::before {
+        content: none;
+    }
+
+    #swiper-present {
+        position: relative;
+        width: 100%;
+    }
+
+    #swiper-present {
+        overflow: visible;
+        padding-bottom: 6rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    #swiper-present:before {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 110vw;
+        background-color: #f78c28;
+        left: -5vw;
+        top: 0;
+    }
+
+    #swiper-present .swiper-slide {
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 80rem;
+    }
+    
 }
