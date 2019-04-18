@@ -6,6 +6,14 @@
     .section1 .visuel {
         background-position: bottom 0 right -6rem;
     }
+
+    .section3 .content {
+        max-width: 35%;
+    }
+
+    .section3::before {
+        width: 35%;
+    }
 }
 
 /* ----------------------- */
@@ -16,6 +24,10 @@
     .section1 .visuel {
         background-size: auto 80%;
         background-position: bottom 0 right -5rem;
+    }
+
+    .section3 .team {
+        justify-content: flex-end;
     }
 }
 
@@ -78,18 +90,46 @@
 }
 
 /* ----------------------- */
-/* 960px / display */
+/* 1000px / display */
 /* ----------------------- */
 
 @media (max-width:1000px) {
 
+    .navbarPage {
+        
+    }
+
+    .navbar {
+        height: 100%;
+        padding: 3rem 2rem;
+    }
+
+    .navbar object {
+        width: 30rem;
+    }
+
+    .navbar .span  {
+        height: .5rem;
+        width: 4rem;
+        margin: .8rem 0;
+        background-color: #fff;
+    }
+
+    .navbar-nav {
+        padding: 2rem 0;
+    }
+
+    .navbar a {
+        font-size: 2.5rem;
+    }
+
     h1, h2 {
-        font-size: 8em;
+        font-size: 8rem;
         margin: 0;
     }
 
     p {
-        font-size: 2em;
+        font-size: 2rem;
         padding: 2.6rem 0 3.4rem 0;
         margin: 0;
     }
@@ -177,6 +217,62 @@
         background-repeat: no-repeat;
         width: 300px;
         height: 80rem;
+    }
+
+    .section3 {
+        height: auto;
+        background-color: #344955;
+        background-image: none;
+    }
+
+    .section3::before {
+        content: none;
+    }
+
+    .section3 .u-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0rem 2rem 0 2rem;
+    }
+
+    .section3 .content {
+        font-size: 2em;
+        padding: 5rem 0 5rem 0;
+        margin: 0;
+        max-width: 100%;
+    }   
+
+    .section3 .team {
+        position: relative;
+        max-width: 100%;
+        justify-content: space-between;
+        padding: 5rem 0 6.5rem 0;
+    }
+
+    .section3 .team:after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 110vw;
+        background-color: #f78c28;
+        left: -5vw;
+        bottom: 0;
+    }
+
+    .section3 .team-item {
+        width: 27rem;
+        height: 27rem;
+        z-index: 1;
+    }
+
+    .section3 .team-item-people-name, .section3 .team-item-people-surname {
+        font-size: 2.2rem;
+    }
+
+    .section3 .team-item-people-description {
+        font-size: 1.8rem;
     }
     
 }
