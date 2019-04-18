@@ -24,6 +24,19 @@ p {
     margin: 0 auto;
 }
 
+.bounce:hover {
+    transition: 0.5s;
+    animation: callToAction .5s infinite;
+}
+
+@keyframes callToAction {
+    0%   {transform: rotate(-1deg);}
+    50%  {transform: rotate(1deg);}
+    100%  {transform: rotate(-1deg);}
+    50% {transform: rotate(1deg);}
+    0% {transform: rotate(-1deg);}
+}
+
 
 /* ----------------------- */
 /* NABAR */
@@ -123,20 +136,6 @@ p {
 .section1 .section1-link img {
     width: 13.75rem;
     transition: 0.5s;
-}
-
-.section1 .section1-link .bounce:hover {
-    width: 13.75rem;
-    transition: 0.5s;
-    animation: callToAction .5s infinite;
-}
-
-@keyframes callToAction {
-    0%   {transform: rotate(-1deg);}
-    50%  {transform: rotate(1deg);}
-    100%  {transform: rotate(-1deg);}
-    50% {transform: rotate(1deg);}
-    0% {transform: rotate(-1deg);}
 }
 
 .section1 .section1-link img:hover {
