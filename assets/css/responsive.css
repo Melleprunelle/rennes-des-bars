@@ -11,8 +11,18 @@
         max-width: 35%;
     }
 
-    .section3::before {
-        width: 35%;
+    .section3 .content {
+        padding: 0 4vw 0 8vw;
+    }
+}
+
+/* ----------------------- */
+/* 1500px */
+/* ----------------------- */
+
+@media (max-width:1600px) {
+    .section3 .team-item {
+        width: 46%;
     }
 }
 
@@ -25,10 +35,6 @@
         background-size: auto 80%;
         background-position: bottom 0 right -5rem;
     }
-
-    .section3 .team {
-        justify-content: flex-end;
-    }
 }
 
 /* ----------------------- */
@@ -40,25 +46,17 @@
         font-size: 2.75rem;
     }
 
-    p {
-        font-size: 1rem;
-    }
-
-    .u-wrapper {
-        padding: 0 2rem;
-    }
-    
     .section1 .visuel {
         background-size: auto 73%;
         background-position: bottom 0 right -8rem;
-    }    
+    }
 
     .section2 .u-wrapper {
         justify-content: center;
     }
 
     .section2 .content {
-        max-width: 30%;
+        max-width: 40%;
         height: auto;
         padding: 6rem 0;
     }
@@ -69,12 +67,68 @@
         margin: 0;
     }
 
-    #swiper-present .swiper-slide {
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 300px;
-        height: 35rem;
+    .section4 .swiper-button-next {
+        right: 4vw;
+    }
+
+    .section4 .swiper-button-prev {
+        left: 4vw;
+    }
+
+    .section5 .content {
+        max-width: 45%;
+    }
+
+    .section5::before {
+        width: 40%;
+    }
+
+    .section5 .avis {
+        max-width: 55%;
+        max-height: 61vh;
+        overflow-y: scroll;
+        overflow-y: auto;
+    }
+}
+
+.section5 .avis::-webkit-scrollbar {
+    width: 5px;
+}
+
+.section5 .avis::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.section5 .avis::-webkit-scrollbar-thumb {
+    background: #2d4753;
+}
+}
+
+/* ----------------------- */
+/* 1200px */
+/* ----------------------- */
+
+@media (max-width:1230px) {
+    .section1 .content {
+        padding: 0 4vw;
+    }
+
+    .section2 .content {
+        padding: 0 0 0 4vw;
+    }
+
+    .section3 .content,
+    .section4 .content,
+    #swiper-actu,
+    .section5 .content,
+    .section5 .avis,
+    .section3 .team,
+    .section6 .content {
+        padding: 0 4vw 0 4vw;
+    }
+
+    .section5 .content {
+        padding: 0 8vw 0 4vw;
     }
 }
 
@@ -82,33 +136,37 @@
 /* 1100px */
 /* ----------------------- */
 
-@media (max-width:1100px) {
-    .section1 .visuel {        
-        background-size: auto 73%;
-        background-position: bottom 0 right -9.5rem;
+@media (max-width:1230px) {
+    .section5 .avis-item {
+        width: 100%;
     }
 }
 
-/* ----------------------- */
 /* 1000px / display */
 /* ----------------------- */
 
 @media (max-width:1000px) {
 
-    .navbarPage {
-        
-    }
+    .navbarPage {}
 
     .navbar {
         height: 100%;
-        padding: 3rem 2rem;
+        padding: 3rem 4rem;
     }
 
     .navbar object {
         width: 30rem;
     }
 
-    .navbar .span  {
+    .navbar-toggler {
+        height: 5vh;
+        width: 12vw;
+        background-image: url(../img/menu-button.svg);
+        background-position: center;
+        background-size: 100% 100%;
+    }
+
+    .navbar .span {
         height: .5rem;
         width: 4rem;
         margin: .8rem 0;
@@ -123,7 +181,8 @@
         font-size: 4rem;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
         font-size: 8rem;
         margin: 0;
     }
@@ -161,7 +220,7 @@
     .section2 .u-wrapper {
         display: flex;
         flex-direction: column;
-        background-color: #344955;
+        background-color: #2d4753;
         height: auto;
     }
 
@@ -175,14 +234,15 @@
         display: block;
     }
 
-    .section2 img {
+    .section2 img,
+    .section5 img {
         display: block;
-        width: 70%;
+        width: 70vw;
         transition: 0.5s;
     }
-    
+
     .section2 img:hover {
-        box-shadow: 0 0px 20px 0 rgba(0,0,0,0.5);
+        box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.5);
     }
 
     .section2::before {
@@ -221,7 +281,7 @@
 
     .section3 {
         height: auto;
-        background-color: #344955;
+        background-color: #2d4753;
         background-image: none;
     }
 
@@ -234,7 +294,6 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        padding: 0rem 2rem 0 2rem;
     }
 
     .section3 .content {
@@ -242,13 +301,13 @@
         padding: 5rem 0 5rem 0;
         margin: 0;
         max-width: 100%;
-    }   
+    }
 
     .section3 .team {
         position: relative;
         max-width: 100%;
         justify-content: space-between;
-        padding: 5rem 0 6.5rem 0;
+        padding: 5rem 3rem 6.5rem 3rem;
     }
 
     .section3 .team:after {
@@ -262,17 +321,114 @@
     }
 
     .section3 .team-item {
-        width: 48%;
+        width: 47%;
         height: 27rem;
         z-index: 1;
     }
 
-    .section3 .team-item-people-name, .section3 .team-item-people-surname {
+    .section3 .content p {
+        padding-bottom: 0;
+    }
+
+    .section3 .team-item-people-name,
+    .section3 .team-item-people-surname {
         font-size: 2.2rem;
     }
 
     .section3 .team-item-people-description {
         font-size: 1.8rem;
     }
+
+    .section4 {
+        display: none;
+    }
+
+    .section5 .avis {
+        display: none;
+    }
+
+    .section5::before {
+        content: none;
+    }
+
+    .section5 .u-wrapper {
+        background-color: #2d4753;
+    }
+
+    .section5 .content {
+        max-width: 100%;
+    }
+
+    .section5 .content a {
+        display: block;
+    }
+
+    .section5 img {
+        display: block;
+        width: 70vw;
+        transition: 0.5s;
+    }
+
+    .section6 .content {
+        max-width: 100vw;
+        width: 100vw;
+    }
+
+    .section6 .visuel {
+        display: none;
+    }
+
+    .row {
+        margin: 0;
+        width: 100%;
+    }
+
     
+  .row span {
+    width: 100%;
+}
+
+.balloon {
+    width: 100%;
+}
+
+.section6 textarea {
+    width: 100%;
+    min-height: 18rem;
+}
+
+.form-submit span {
+    width: auto;
+}
+
+.section6 .baseline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 0.8rem;
+    background-color: #2d4753;
+    padding: 4vw;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.section1 .content,
+.section2 .content,
+.section3 .content,
+.section5 .content,
+.section6 .content {
+    margin-top: 0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.section6 .content {
+    padding-bottom: 8rem;
+}
+
+.u-wrapper {
+    margin-top: 0;
 }
