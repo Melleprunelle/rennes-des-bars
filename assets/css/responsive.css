@@ -1,10 +1,10 @@
 /* ----------------------- */
-/* 1600px */
+/* 1800px */
 /* ----------------------- */
 
-@media (max-width:1600px) {
+@media (max-width:1800px) {
     .section1 .visuel {
-        background-position: bottom 0 right -6rem;
+        background-position: bottom left 2vw;
     }
 
     .section3 .content {
@@ -16,13 +16,37 @@
     }
 }
 
+
+
+/* ----------------------- */
+/* 1600px */
+/* ----------------------- */
+
+@media (max-width:1600px) {
+    .section1 .visuel {
+        background-position: bottom left 2vw;
+    }
+
+    .section3 .content {
+        max-width: 35%;
+    }
+
+    .section3 .content {
+        padding: 0 4vw 0 8vw;
+    }
+
+    .section3 .team-item {
+        width: 46%;
+    }
+}
+
 /* ----------------------- */
 /* 1500px */
 /* ----------------------- */
 
-@media (max-width:1600px) {
-    .section3 .team-item {
-        width: 46%;
+@media (max-width:1500px) {
+    .section1 .visuel {
+        background-position: bottom left 2vw;
     }
 }
 
@@ -32,9 +56,7 @@
 
 @media (max-width:1400px) {
     .section1 .visuel {
-        background-size: auto 80%;
-        background-position: bottom 0 right -5rem;
-    }
+        background-position: bottom left 2vw;   }
 }
 
 /* ----------------------- */
@@ -47,8 +69,7 @@
     }
 
     .section1 .visuel {
-        background-size: auto 73%;
-        background-position: bottom 0 right -8rem;
+        background-position: bottom left 2vw;
     }
 
     .section2 .u-wrapper {
@@ -100,7 +121,7 @@
 }
 
 .section5 .avis::-webkit-scrollbar-thumb {
-    background: #2d4753;
+    background: #2c4553;
 }
 }
 
@@ -130,15 +151,22 @@
     .section5 .content {
         padding: 0 8vw 0 4vw;
     }
+    
+    .section5 .avis-item {
+        width: 100%;
+    }
 }
 
 /* ----------------------- */
 /* 1100px */
 /* ----------------------- */
 
-@media (max-width:1230px) {
-    .section5 .avis-item {
-        width: 100%;
+@media (max-width:1100px) {
+
+    
+
+    .section1 .visuel {
+        background-position: bottom left 2vw;
     }
 }
 
@@ -146,9 +174,6 @@
 /* ----------------------- */
 
 @media (max-width:1000px) {
-
-    .navbarPage {}
-
     .navbar {
         height: 100%;
         padding: 3rem 4rem;
@@ -175,10 +200,15 @@
 
     .navbar-nav {
         padding: 2rem 0;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .navbar a {
+    .navbar-nav .nav-link {
         font-size: 4rem;
+        margin: 1.5vh 0;
     }
 
     h1,
@@ -206,8 +236,7 @@
     }
 
     .section1 .visuel {
-        background-position: bottom right;
-        background-size: auto 85%;
+        background-position: bottom left 2vw;        background-size: 120%;
         height: 85rem;
         width: 100%;
     }
@@ -220,7 +249,7 @@
     .section2 .u-wrapper {
         display: flex;
         flex-direction: column;
-        background-color: #2d4753;
+        background-color: #2c4553;
         height: auto;
     }
 
@@ -281,7 +310,7 @@
 
     .section3 {
         height: auto;
-        background-color: #2d4753;
+        background-color: #2c4553;
         background-image: none;
     }
 
@@ -352,7 +381,7 @@
     }
 
     .section5 .u-wrapper {
-        background-color: #2d4753;
+        background-color: #2c4553;
     }
 
     .section5 .content {
@@ -427,13 +456,12 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 0.8rem;
-    background-color: #2d4753;
+    font-size: 2rem;
+    background-color: #2c4553;
     padding: 4vw;
     width: 100%;
     text-align: center;
-    font-size: 1rem;
-}
+ }
 
 .section1 .content,
 .section2 .content,
@@ -441,14 +469,14 @@
 .section5 .content,
 .section6 .content {
     margin-top: 0;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
     padding-left: 4rem;
     padding-right: 4rem;
 }
 
 .section6 .content {
-    padding-bottom: 10rem;
+    padding-bottom: 18rem;
     height: auto;
 }
 

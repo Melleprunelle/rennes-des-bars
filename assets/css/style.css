@@ -80,7 +80,7 @@ p {
 
 .navbarPage {
     width: 100%;
-    background-color: #2d4753;
+    background-color: #2c4553;
     justify-content: space-between;
     position: fixed;
     z-index: 100;
@@ -144,7 +144,7 @@ p {
 
 .section1 .u-wrapper, .section2 .u-wrapper {
     overflow: hidden;
-    background-color: #2d4753;
+    background-color: #2c4553;
     height: 100vh;
     display: flex;
     justify-content: flex-start;
@@ -157,13 +157,13 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #2d4753;
+    background-color: #2c4553;
 }
 
 .section1 .visuel {
-    background-image: url(../img/header_img.png);
+    background-image: url(../img/header_img2.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right -10vw;
     background-size: auto 90%;
     background-color: #f78c28;
     height: 100vh;
@@ -181,7 +181,7 @@ p {
 .section2 {
     background-image: url(../img/kesako_img.png);
     background-size: contain;
-    background-position: right bottom;
+    background-position: bottom left 2vw;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -236,9 +236,6 @@ p {
     height: 35rem;
 }
 
-#swiper-present .swiper-slide:hover {
-}
-
 .section2 .swiper-button-next {
     background-image: url(../img/next.svg);
     background-size: contain;
@@ -276,7 +273,7 @@ p {
     position: absolute;
     height: 100%;
     width: 40%;
-    background-color: #2d4753;
+    background-color: #2c4553;
     left: 0;
     bottom: 0;
 }
@@ -313,27 +310,27 @@ p {
     box-shadow: 0 0px 20px 0 rgba(0,0,0,0.3);
     overflow: hidden;
     background-position: center;
-    background-size: cover;
+    background-size: 121%;
 }
 
 .section3 .team-item:nth-child(1) {
-    background-image: url(../img/lise.png);
+    background-image: url(../img/concepteur/quentin.png);
 }
 
 .section3 .team-item:nth-child(2) {
-    background-image: url(../img/lise.png);
+    background-image: url(../img/concepteur/arnaud.png);
 }
 
 .section3 .team-item:nth-child(3) {
-    background-image: url(../img/lise.png);
+    background-image: url(../img/concepteur/ceasar.png);
 }
 
 .section3 .team-item:nth-child(4) {
-    background-image: url(../img/lise.png);
+    background-image: url(../img/concepteur/lise.png);
 }
 
 .section3 .team-item:nth-child(5) {
-    background-image: url(../img/lise.png);
+    background-image: url(../img/concepteur/lise.png);
 }
 
 .section3 .team-item:hover {
@@ -344,7 +341,7 @@ p {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #2d4753;
+    background-color: #2c4553;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -482,7 +479,7 @@ p {
     justify-content: center;
     padding: 3rem;
     font-size: 12px;
-    color: #2d4753;
+    color: #2c4553;
 }
 
 #swiper-actu .swiper-slide-header h3 {    
@@ -538,7 +535,7 @@ p {
     position: absolute;
     height: 100%;
     width: 50%;
-    background-color: #2d4753;
+    background-color: #2c4553;
     left: 0;
     bottom: 0;
 }
@@ -577,7 +574,7 @@ p {
     overflow: hidden;
     background-position: center;
     background-size: cover;
-    background-color: #2d4753;
+    background-color: #2c4553;
 }
 
 
@@ -589,7 +586,7 @@ p {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #2d4753;
+    background-color: #2c4553;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -656,11 +653,11 @@ p {
     position: relative;
 }
 
-.section6 .u-wrapper, .section2 .u-wrapper {
+.section6 .u-wrapper{
     overflow: hidden;
     height: 100vh;
     display: flex;
-    background-color: #2d4753;
+    background-color: #2c4553;
     justify-content: flex-start;
 }
 
@@ -737,7 +734,7 @@ width: 19rem;
 padding: 1rem 1rem;
 font-family: "Open Sans", sans;
 font-weight: 400;
-color: #2d4753;
+color: #2c4553;
 background: #efefef;
 border: 0;
 outline: 0;
@@ -758,7 +755,7 @@ transition: all .3s ease-in-out;
     left: 0;
     bottom: 8px;
     padding: 5px 15px;
-    color: #2d4753;
+    color: #2c4553;
     font-size: 0.875rem;
     text-shadow: 0 1px 0 rgba(19, 74, 70, 0);
     transition: all .3s ease-in-out;
@@ -789,7 +786,7 @@ transition: all .3s ease-in-out;
   
   .balloon:focus,
   .balloon:active {
-    color: #2d4753;
+    color: #2c4553;
     text-indent: 0;
     background: #fff;
   }
@@ -805,7 +802,7 @@ transition: all .3s ease-in-out;
   .balloon:active + textarea {
     color: #fff;
     text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
-    background: #2d4753;
+    background: #2c4553;
     transform: translateY(-40px);
   }
 
@@ -813,12 +810,17 @@ transition: all .3s ease-in-out;
   .balloon:active + label:after,
   .balloon:active + textarea:after,
   .balloon:active + textarea:after {
-    border-top: 4px solid #2d4753;
+    border-top: 4px solid #2c4553;
   }
 
   .section6 .baseline {
       font-size: 0.8rem;
   }
+
+  .section6 .baseline a {
+    text-decoration: none;
+    color: white;
+}
 
 
 /* ----------------------- */
@@ -826,4 +828,13 @@ transition: all .3s ease-in-out;
 /* ----------------------- */
   
 
-  
+.section1  .mentions {
+      height: auto;
+      margin-top: 0;
+      padding-top: 20vh;
+      padding-bottom: 15vh;
+  }
+
+  .section1 .mentions p {
+    padding: 2.6rem 0 0 0;
+  }
