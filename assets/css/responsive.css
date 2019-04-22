@@ -369,6 +369,10 @@
         transition: 0.5s;
     }
 
+    .section6 .u-wrapper {
+        height: auto;
+    }
+
     .section6 .content {
         max-width: 100vw;
         width: 100vw;
@@ -377,29 +381,47 @@
     .section6 .visuel {
         display: none;
     }
+    
+    .section6 textarea {
+        width: 100%;
+        min-height: 18rem;
+    }
+
+    .balloon + label, .balloon + textarea {
+        font-size: 2.5rem;
+        padding: 3rem 2rem;
+    }
+
+    .balloon:focus + label, .balloon:active + label, .balloon:focus + textarea, .balloon:active + textarea {
+        transform: translateY(-96px);
+    }
+    
+    .form-submit span {
+        width: auto;
+        display: flex;
+    }
 
     .row {
         margin: 0;
         width: 100%;
     }
-
     
-  .row span {
+    .row span {
     width: 100%;
-}
+    }
 
-.balloon {
-    width: 100%;
-}
+    .balloon {
+        width: 100%;
+        height: 5vh;
+        margin: .5rem 0;
+        font-size: 2.5vh;
+    }
 
-.section6 textarea {
-    width: 100%;
-    min-height: 18rem;
-}
-
-.form-submit span {
-    width: auto;
-}
+    .balloonSubmit {
+        width: 70vw;
+        padding: 3vh 2.5rem;
+        font-size: 2.5rem;
+    }
 
 .section6 .baseline {
     position: absolute;
@@ -426,7 +448,8 @@
 }
 
 .section6 .content {
-    padding-bottom: 8rem;
+    padding-bottom: 10rem;
+    height: auto;
 }
 
 .u-wrapper {
