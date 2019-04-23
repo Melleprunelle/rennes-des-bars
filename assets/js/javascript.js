@@ -1,5 +1,7 @@
+'use strict';
+
+// DETECTION TAILLE ECRAN
 var w = window.innerWidth;
-console.log(w);
 if (w > 1000) {
     var deleteLog = false;
     $(document).ready(function () {
@@ -12,6 +14,7 @@ if (w > 1000) {
         });
     });
 }
+
 
 
 //SLIDER PHONE
@@ -42,6 +45,8 @@ var swiper = new Swiper('#swiper-present', {
     }
 });
 
+
+
 //SLIDER ACTU
 var swiper = new Swiper('#swiper-actu', {
     slidesPerView: 2,
@@ -67,13 +72,15 @@ var swiper = new Swiper('#swiper-actu', {
 });
 
 
+
+//SLIDER AVIS
 var swiper = new Swiper('.swiper-avis', {
     slidesPerView: 2,
     slidesPerColumn: 3,
     spaceBetween: 30,
     pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
+        el: '.swiper-pagination',
+        clickable: true,
     },
     breakpoints: {
         1460: {
@@ -85,4 +92,4 @@ var swiper = new Swiper('.swiper-avis', {
             slidesPerColumn: 3,
         },
     }
-  });
+});
