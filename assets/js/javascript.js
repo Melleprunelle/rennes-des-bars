@@ -65,3 +65,24 @@ var swiper = new Swiper('#swiper-actu', {
         },
     }
 });
+
+
+var swiper = new Swiper('.swiper-avis', {
+    slidesPerView: 2,
+    slidesPerColumn: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+        1460: {
+            slidesPerView: 2,
+            slidesPerColumn: 2,
+        },
+        1300: {
+            slidesPerView: 1,
+            slidesPerColumn: 3,
+        },
+    }
+  });

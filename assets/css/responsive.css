@@ -106,23 +106,7 @@
 
     .section5 .avis {
         max-width: 55%;
-        max-height: 61vh;
-        overflow-y: scroll;
-        overflow-y: auto;
     }
-}
-
-.section5 .avis::-webkit-scrollbar {
-    width: 5px;
-}
-
-.section5 .avis::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.04);
-}
-
-.section5 .avis::-webkit-scrollbar-thumb {
-    background: #2c4553;
-}
 }
 
 /* ----------------------- */
@@ -162,8 +146,10 @@
 /* ----------------------- */
 
 @media (max-width:1100px) {
-
-    
+    .navbar a {
+        color: #fff;
+        font-size: 1rem;
+    }
 
     .section1 .visuel {
         background-position: bottom left 2vw;
