@@ -160,6 +160,9 @@
 /* ----------------------- */
 
 @media (max-width:1000px) {
+    .sticky {
+        display: none;
+    }
     .navbar {
         height: 100%;
         padding: 3rem 4rem;
