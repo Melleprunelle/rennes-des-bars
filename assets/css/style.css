@@ -859,11 +859,11 @@ p {
     text-transform: uppercase;
     border: 0;
     outline: 0;
+    padding: 16px;
     margin-top: 2.5vh;
     font-family: "Montserrat";
     background-color: #fff;
     width: 220px;
-    height: 66px;
 }
 
 .balloon {
