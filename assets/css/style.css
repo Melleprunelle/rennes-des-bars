@@ -12,6 +12,10 @@ body {
     font-size: 1.2rem;
 }
 
+section {
+    overflow:hidden;
+}
+
 h1,
 h2 {
     font-size: 2.6em;
@@ -28,7 +32,7 @@ p {
 .u-wrapper {
     /*margin: 68px auto 0 auto;*/
     max-width: 100vw;
-    height: 88vh;
+    height: 92vh;
     margin-top: 8vh;
 }
 
@@ -200,7 +204,6 @@ p {
 .section2 .u-wrapper {
     overflow: hidden;
     background-color: #2c4553;
-    height: 90vh;
     display: flex;
     justify-content: flex-start;
     overflow:hidden;
@@ -634,9 +637,9 @@ p {
 
 .section5 .avis {
     z-index: 1;
-    max-width: 50%;
+    /*max-width: 50%;*/
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
     padding: 0 8vw 0 8vw;

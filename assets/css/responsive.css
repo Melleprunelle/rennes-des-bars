@@ -235,7 +235,7 @@
     }
 
     .section1 {
-        height: 70rem;
+        height: 85rem;
     }
 
     .section1 .content {
@@ -249,7 +249,7 @@
     .section1 .visuel {
         background-position: bottom left 2vw;
         background-size: 120%;
-        height: 70rem;
+        height: 85rem;
         width: 100%;
     }
 
