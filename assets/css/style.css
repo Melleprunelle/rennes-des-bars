@@ -19,7 +19,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 1em;
     /*padding: 2.6rem 0 3.4rem 0;*/
     padding: 5vh 0 6vh 0;
     margin: 0;
@@ -203,6 +203,7 @@ p {
     height: 90vh;
     display: flex;
     justify-content: flex-start;
+    overflow:hidden;
 }
 
 .section1 .content {
@@ -221,7 +222,7 @@ p {
     background-position: bottom right -10vw;
     background-size: auto 90%;
     background-color: #f78c28;
-    height: 91vh;
+    height: 92vh;
     width: 44%;
     position: absolute;
     right: 0;
@@ -653,14 +654,14 @@ p {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: red;
-    max-height: 80vh;
+    background-color: yellow;
 }
 
 .section5 .swiper-avis .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
+    max-height: 31vh;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -729,7 +730,7 @@ p {
 }
 
 .section5 .avis-item-client-description {
-    font-size: .8rem;
+    font-size: .8em;
     padding-top: 0;
     padding-bottom: 1rem;
 }
