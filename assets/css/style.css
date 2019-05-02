@@ -18,22 +18,22 @@ section {
 
 h1,
 h2 {
-    font-size: 2.6em;
+    font-size: 2.7em;
     margin: 0;
+    line-height: .8;
 }
 
 p {
-    font-size: 1em;
+    font-size: 17.5px;
     /*padding: 2.6rem 0 3.4rem 0;*/
-    padding: 5vh 0 6vh 0;
+    padding: 40px 0 40px 0;
     margin: 0;
 }
 
 .u-wrapper {
-    /*margin: 68px auto 0 auto;*/
+    margin-top: 65px;
     max-width: 100vw;
-    height: 92vh;
-    margin-top: 8vh;
+    height: calc(100vh - 65px);
 }
 
 .swiper-wrapper {
@@ -47,7 +47,8 @@ p {
 }
 
 .link img {
-    width: 13.75rem;
+    width: 220px;
+    height: 66px;
     transition: 0.5s;
 }
 
@@ -98,8 +99,8 @@ p {
 /* ----------------------- */
 
 .sticky {
-    height: 5rem;
-    width: 5rem;
+    height: 50px;
+    width: 50px;
     background: white;
     position: fixed;
     z-index: 50;
@@ -115,7 +116,8 @@ p {
 
 
 .sticky:hover {
-    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
 }
 
 
@@ -129,7 +131,7 @@ p {
 }
 
 .navbarPage {
-    height: 10vh;
+    height: 65px;
     width: 100%;
     background-color: #2c4553;
     justify-content: space-between;
@@ -167,33 +169,34 @@ p {
 
 .nav-item {
     position: relative;
+    text-align: center;
 }
-
-.nav-item:hover:after {
-    -webkit-animation-name: line;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.5s;
-    /* Safari 4.0 - 8.0 */
-    animation-name: line;
-    animation-duration: 1.5s;
-    content: '';
+  
+.hover_effect:after {
+    content: "";
+    height: 1px;
+    left: 0;
+    bottom: 5px;
+    width: 1px;
     position: absolute;
-    height: 2px;
-    width: 100%;
+    -webkit-transition: width 1s ease, background-color 1s ease;
+    -moz-transition: width 1s ease, background-color 1s ease;;
+    -ms-transition: width 1s ease, background-color 1s ease;;
+    -o-transition: width 1s ease, background-color 1s ease;;
+    transition: width 1s ease, background-color 1s ease;;
+    right: 0;
+    margin: 0 auto;
+}
+  
+.hover_effect:hover:after{
+    width: 30%; 
     background-color: #fff;
-    bottom: .5px;
 }
 
-@-webkit-keyframes line {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 100%;
-    }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 8px;
+    padding-left: 8px;
 }
-
 
 
 /* ----------------------- */
@@ -362,12 +365,11 @@ p {
     align-items: center;
     flex-wrap: wrap;
     padding: 0 8vw 0 8vw;
-    height: 80vh;
 }
 
 .section3 .team-item {
-    width: 30%;
-    height: 30%;
+    width: 183px;
+    height: 183px;
     margin: .5rem 0 .5rem 1rem;
     box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.3);
     overflow: hidden;
@@ -423,6 +425,7 @@ p {
 .section3 .team-item-people-surname {
     padding: 0;
     font-weight: 600;
+    font-size: 16px;
     position: relative;
 }
 
@@ -433,7 +436,7 @@ p {
 .section3 .team-item-people-surname:after {
     position: absolute;
     content: '';
-    height: .2rem;
+    height: 1px;
     width: 100%;
     background-color: #fff;
     left: 0;
@@ -441,7 +444,7 @@ p {
 }
 
 .section3 .team-item-people-description {
-    font-size: .8rem;
+    font-size: 12px;
     padding-top: 1rem;
     padding-bottom: 0;
 }
@@ -499,10 +502,10 @@ p {
 
 #swiper-actu {
     z-index: 2;
-    width: 70vw;
+    width: 75vw;
     padding-top: 0;
     padding-bottom: 0;
-    margin: 0 15vw 0 15vw;
+    margin: 0 auto;
 }
 
 #swiper-actu .swiper-slide {
@@ -576,10 +579,10 @@ p {
 .section4 .swiper-button-next {
     background-image: url(../img/next.svg);
     background-size: contain;
-    background-position: right;
+    background-position: right -10px center;
     width: 5rem;
     height: 3rem;
-    right: 11vw;
+    right: 8vw;
     top: calc(50% - 1.5rem + 3rem);
     opacity: 0.5;
 }
@@ -587,10 +590,10 @@ p {
 .section4 .swiper-button-prev {
     background-image: url(../img/prev.svg);
     background-size: contain;
-    background-position: left;
+    background-position: left -10px center;
     width: 5rem;
     height: 3rem;
-    left: 11vw;
+    left: 8vw;
     top: calc(50% - 1.5rem + 3rem);
     opacity: 0.5;
 }
@@ -637,7 +640,7 @@ p {
 
 .section5 .avis {
     z-index: 1;
-    /*max-width: 50%;*/
+    max-width: 50%;
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -657,14 +660,13 @@ p {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: yellow;
+    max-height: 80vh;
 }
 
 .section5 .swiper-avis .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
-    max-height: 31vh;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -718,7 +720,7 @@ p {
 }
 
 .section5 .avis-item-client-name {
-    font-size: 1rem;
+    font-size: 14px;
     padding: 0;
     font-weight: 600;
     position: relative;
@@ -729,11 +731,11 @@ p {
 }
 
 .section5 .avis-item-client-star object {
-    margin: .5rem .5rem .5rem 0;
+    margin: .3rem .3rem .3rem 0;
 }
 
 .section5 .avis-item-client-description {
-    font-size: .8em;
+    font-size: 12px;
     padding-top: 0;
     padding-bottom: 1rem;
 }
@@ -840,17 +842,17 @@ p {
 .balloonSubmit {
     display: inline-block;
     width: 100%;
-    padding: 1rem 2rem 1rem 2rem;
     font-family: "Open Sans", sans;
     font-weight: 400;
     color: #f78c28;
-    background: #efefef;
     text-transform: uppercase;
     border: 0;
     outline: 0;
     margin-top: 2.5vh;
     font-family: "Montserrat";
-    /*Corriger typographie*/
+    background-color: #fff;
+    width: 220px;
+    height: 66px;
 }
 
 .balloon {
@@ -860,7 +862,6 @@ p {
     font-family: "Open Sans", sans;
     font-weight: 400;
     color: #2c4553;
-    background: #efefef;
     border: 0;
     outline: 0;
     text-indent: 60px;

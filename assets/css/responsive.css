@@ -32,11 +32,12 @@
     }
 
     .section3 .content {
-        padding: 0 4vw 0 8vw;
+        padding: 0 0 0 8vw;
     }
 
     .section3 .team-item {
-        width: 46%;
+        width: 183px;
+        height: 183px;
     }
 }
 
@@ -156,7 +157,7 @@
 /* 1100px */
 /* ----------------------- */
 
-@media (max-width:1100px) {
+@media (max-width:1150px) {
     .navbar a {
         color: #fff;
         font-size: 1rem;
@@ -164,6 +165,15 @@
 
     .section1 .visuel {
         background-position: bottom left 2vw;
+    }
+
+    .section3 .team {
+        padding: 0 0 0 2vw;
+    }
+
+    .section3 .team-item {
+        width: 170px;
+        height: 170px;
     }
 }
 
