@@ -89,7 +89,7 @@ var swiper = new Swiper('.swiper-avis', {
         },
         1300: {
             slidesPerView: 1,
-            slidesPerColumn: 3,
+            slidesPerColumn: 2,
         },
     }
 });
