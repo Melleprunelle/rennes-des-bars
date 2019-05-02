@@ -182,6 +182,10 @@
         padding: 3rem 4rem;
     }
 
+    .navbarPage {
+        height:auto;
+    }
+
     .navbar object {
         width: 30rem;
     }
@@ -226,8 +230,12 @@
         margin: 0;
     }
 
+    .u-wrapper {
+        height: auto;
+    }
+
     .section1 {
-        height: 85rem;
+        height: 70rem;
     }
 
     .section1 .content {
@@ -241,7 +249,7 @@
     .section1 .visuel {
         background-position: bottom left 2vw;
         background-size: 120%;
-        height: 85rem;
+        height: 70rem;
         width: 100%;
     }
 
