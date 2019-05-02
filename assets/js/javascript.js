@@ -7,7 +7,7 @@ if (w > 1000) {
     $(document).ready(function () {
         $('#pagepiling').pagepiling({
             menu: '#menu',
-            anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', ],
+            anchors: ['accueil', 'kesako', 'team', 'actualites', 'avis-client', 'contact', ],
             sectionsColor: ['#2d4753', '#2d4753', '#f78c28', '#2d4753', '#f78c28', '#2d4753'],
             loopTop: true,
             loopBottom: true
