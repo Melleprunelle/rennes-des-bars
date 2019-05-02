@@ -288,7 +288,7 @@
     .section2 img,
     .section5 img {
         display: block;
-        width: 70vw;
+        height: 6vh;
         transition: 0.5s;
     }
 
