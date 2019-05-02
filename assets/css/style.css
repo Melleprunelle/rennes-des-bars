@@ -358,10 +358,12 @@ p {
     align-items: center;
     flex-wrap: wrap;
     padding: 0 8vw 0 8vw;
+    height: 80vh;
 }
 
 .section3 .team-item {
     width: 30%;
+    height: 30%;
     margin: .5rem 0 .5rem 1rem;
     box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.3);
     overflow: hidden;
