@@ -281,19 +281,17 @@
         padding: 4.5rem 0 6rem 0;
     }
 
-    .section2 .content a {
-        display: block;
-    }
-
-    .section2 img,
-    .section5 img {
-        display: block;
-        height: 6vh;
-        transition: 0.5s;
-    }
-
     .section2 img:hover {
         box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .section2 .content a, .section5 .content a {
+        display: block;
+    }
+    
+    .section2 .content a img, .section5 .content a img {
+        width: 50vw;
+        height: auto;
     }
 
     .section2::before {
@@ -408,16 +406,6 @@
 
     .section5 .content {
         max-width: 100%;
-    }
-
-    .section5 .content a {
-        display: block;
-    }
-
-    .section5 img {
-        display: block;
-        width: 70vw;
-        transition: 0.5s;
     }
 
     .section6 .u-wrapper {
