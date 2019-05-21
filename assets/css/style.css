@@ -47,13 +47,13 @@ strong {
 .link {
     width: 30rem;
     display: flex;
-    justify-content: space-between;
 }
 
 .link img {
-    width: 220px;
+    width: 150px;
     height: 66px;
     transition: 0.5s;
+    margin-right: 15px;
 }
 
 .link img:hover {
@@ -103,8 +103,8 @@ strong {
 /* ----------------------- */
 
 .sticky {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background: white;
     position: fixed;
     z-index: 50;
@@ -825,7 +825,6 @@ strong {
 .row {
     max-width: 100%;
     margin: 0 auto;
-    text-align: center;
     display: flex;
     justify-content: space-between;
 }
@@ -863,11 +862,12 @@ strong {
     text-transform: uppercase;
     border: 0;
     outline: 0;
-    padding: 16px;
+    padding: 10px;
     margin-top: 2.5vh;
     font-family: "Montserrat";
     background-color: #fff;
-    width: 220px;
+    width: 150px;
+    font-size: 1rem;
 }
 
 .balloon {
