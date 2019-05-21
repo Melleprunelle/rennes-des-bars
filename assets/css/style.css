@@ -168,7 +168,7 @@ strong {
 
 .navbar a {
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 12px;
 }
 
 .nav-item {
@@ -231,7 +231,7 @@ strong {
     background-repeat: no-repeat;
     background-position: bottom right -10vw;
     background-size: auto 90%;
-    background-color: #f78c28;
+    background-color: #f9aa33;
     height: 92vh;
     width: 44%;
     position: absolute;
@@ -257,7 +257,7 @@ strong {
     position: absolute;
     height: 100%;
     width: 65%;
-    background-color: #f78c28;
+    background-color: #f9aa33;
     left: 0;
     bottom: 0;
 }
@@ -477,7 +477,7 @@ strong {
     position: absolute;
     height: 100%;
     width: 58%;
-    background-color: #f78c28;
+    background-color: #f9aa33;
     left: 0;
     bottom: 0;
 }
@@ -804,7 +804,7 @@ strong {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f78c28;
+    background-color: #f9aa33;
 }
 
 .section6 .visuel {
@@ -813,7 +813,7 @@ strong {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: #f78c28;
+    background-color: #f9aa33;
     height: 100vh;
     width: 50%;
 }
@@ -859,7 +859,7 @@ strong {
     width: 100%;
     font-family: "Open Sans", sans;
     font-weight: 400;
-    color: #f78c28;
+    color: #f9aa33;
     text-transform: uppercase;
     border: 0;
     outline: 0;

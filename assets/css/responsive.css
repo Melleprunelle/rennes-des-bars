@@ -160,7 +160,7 @@
 @media (max-width:1150px) {
     .navbar a {
         color: #fff;
-        font-size: 1rem;
+        font-size: 12px;
     }
 
     .section1 .visuel {
@@ -224,7 +224,7 @@
     }
 
     .navbar-nav .nav-link {
-        font-size: 4rem;
+        font-size: 2rem;
         margin: 1.5vh 0;
     }
 
@@ -315,7 +315,7 @@
         content: '';
         height: 100%;
         width: 110vw;
-        background-color: #f78c28;
+        background-color: #f9aa33;
         left: -5vw;
         top: 0;
     }
@@ -364,7 +364,7 @@
         position: absolute;
         height: 100%;
         width: 110vw;
-        background-color: #f78c28;
+        background-color: #f9aa33;
         left: -5vw;
         bottom: 0;
     }
