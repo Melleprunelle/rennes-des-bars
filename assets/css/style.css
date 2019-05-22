@@ -848,6 +848,7 @@ strong {
 
 .form-textarea span,
 .form-textarea textarea {
+    min-height: 150px;
     width: 100%;
 }
 
@@ -861,7 +862,6 @@ strong {
     border: 0;
     outline: 0;
     padding: 10px;
-    margin-top: 2.5vh;
     font-family: "Montserrat";
     background-color: #fff;
     width: 150px;
@@ -871,7 +871,7 @@ strong {
 .balloon {
     display: inline-block;
     width: 100%;
-    padding: 1rem 1rem;
+    padding: 5px;
     font-family: "Open Sans", sans;
     font-weight: 400;
     color: #344955;
@@ -891,7 +891,7 @@ strong {
 .balloon + textarea {
     display: inline-block;
     position: absolute;
-    top: 8px;
+    top: 5px;
     left: 0;
     bottom: 8px;
     padding: 5px 15px;

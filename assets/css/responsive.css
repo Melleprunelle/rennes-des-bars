@@ -441,7 +441,7 @@
 
     .section6 textarea {
         width: 100%;
-        min-height: 18rem;
+        min-height: 30rem;
     }
 
     .balloon + label,
@@ -489,7 +489,7 @@
 
     .balloonSubmit {
         width: 40vw;
-        padding: 3vh 2.5rem;
+        padding: 2vh 2.5rem;
         font-size: 2.5rem;
     }
 
