@@ -51,7 +51,6 @@ strong {
 
 .link img {
     width: 150px;
-    height: 66px;
     transition: 0.5s;
     margin-right: 15px;
 }
@@ -382,23 +381,23 @@ strong {
 }
 
 .section3 .team-item:nth-child(1) {
-    background-image: url(../img/concepteur/quentin.png);
+    background-image: url(../img/concepteur/Arnauninho.jpg);
 }
 
 .section3 .team-item:nth-child(2) {
-    background-image: url(../img/concepteur/arnaud.png);
+    background-image: url(../img/concepteur/Quentinho.jpg);
 }
 
 .section3 .team-item:nth-child(3) {
-    background-image: url(../img/concepteur/ceasar.png);
+    background-image: url(../img/concepteur/Cesarinho.jpg);
 }
 
 .section3 .team-item:nth-child(4) {
-    background-image: url(../img/concepteur/lise.png);
+    background-image: url(../img/concepteur/Paulinho.jpg);
 }
 
 .section3 .team-item:nth-child(5) {
-    background-image: url(../img/concepteur/lise.png);
+    background-image: url(../img/concepteur/Lisinho.jpg);
 }
 
 .section3 .team-item:hover {
@@ -429,7 +428,7 @@ strong {
 .section3 .team-item-people-surname {
     padding: 0;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
 }
 
