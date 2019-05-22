@@ -241,6 +241,11 @@
         position: relative;
     }
 
+    .hover_effect:hover:after {
+        left: 0;
+        right: auto;
+    }
+
     h1,
     h2 {
         font-size: 8rem;
