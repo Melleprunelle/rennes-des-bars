@@ -243,9 +243,10 @@ strong {
 /* ----------------------- */
 
 .section2 {
-    background-image: url(../img/kesako_img.png);
+    background-image: url(../img/vin.svg);
+    background-blend-mode: luminosity;
     background-size: contain;
-    background-position: bottom right;
+    background-position: bottom -150px right -3vw;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -326,9 +327,10 @@ strong {
 /* ----------------------- */
 
 .section3 {
-    background-image: url(../img/team_img.png);
+    background-image: url(../img/alcoolfort.svg);
     background-size: contain;
-    background-position: right bottom;
+    background-position: right bottom -115px;
+    background-blend-mode: soft-light;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -463,9 +465,10 @@ strong {
 /* ----------------------- */
 
 .section4 {
-    background-image: url(../img/actu_img.png);
+    background-image: url(../img/biere.svg);
     background-size: contain;
-    background-position: right bottom -3rem;
+    background-position: right 10vw bottom -100px;
+    background-blend-mode: luminosity;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -618,9 +621,10 @@ strong {
 /* ----------------------- */
 
 .section5 {
-    background-image: url(../img/avis_img.png);
+    background-image: url(../img/cocktail.svg);
     background-size: contain;
-    background-position: right bottom;
+    background-blend-mode: luminosity;
+    background-position: right -11vw bottom -100px;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -796,7 +800,7 @@ strong {
 }
 
 .section6 .content {
-    max-width: 58%;
+    width: 60%;
     padding: 0 8vw;
     height: 100vh;
     display: flex;
@@ -807,13 +811,14 @@ strong {
 
 .section6 .visuel {
     position: relative;
-    background-image: url(../img/contact_img.png);
+    background-image: url(../img/tasse.svg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left -192px bottom -100px;
+    background-blend-mode: luminosity;
     background-size: cover;
-    background-color: #f9aa33;
+    background-color: #344955;
     height: 100vh;
-    width: 50%;
+    width: 40%;
 }
 
 .section6 h2 {
@@ -821,7 +826,7 @@ strong {
 }
 
 .row {
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -835,7 +840,7 @@ strong {
     position: relative;
     display: inline-block;
     margin: .5rem 0;
-    width: 46%;
+    width: 49%;
 }
 
 .form-textarea {
